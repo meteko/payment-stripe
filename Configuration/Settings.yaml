@@ -1,0 +1,11 @@
+Neos:
+  Flow:
+    mvc:
+      routes:
+        'Meteko.Stripe.Webhooks': true
+
+#Meteko:
+#  Stripe:
+#    Webhooks:
+#      webhooks:
+#        'balance.available': Meteko\Stripe\Webhooks\EventHandler\InvoiceUpdated

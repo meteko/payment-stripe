@@ -1,0 +1,8 @@
+-
+  name: 'Stripe Webook'
+  uriPattern: 'stripe-webhooks'
+  defaults:
+    '@package': 'Meteko.Stripe.Webhooks'
+    '@controller': 'Webhook'
+    '@action': 'event'
+  httpMethods: ['POST']

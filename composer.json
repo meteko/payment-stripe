@@ -1,0 +1,19 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "meteko/stripe-webhooks",
+    "require": {
+        "neos/flow": "*",
+        "stripe/stripe-php": "4.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Meteko\\Stripe\\Webhooks\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Meteko.Stripe.Webhooks"
+        }
+    }
+}
